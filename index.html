@@ -1,6 +1,42 @@
-<html>
-<body>
-  <h1>Hello World</h1>
-  <p>Test the text of all <strong>texts!</strong></p>
-</body>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Marvel Champions Endings Generator</title>
+		<link rel="shortcut icon" type="image/jpg" href="marvel-icon.png"/>
+		<link rel="stylesheet" href="styles.css">
+		<script type="text/javascript" src="values.js"></script>
+	</head>
+	<body>
+		<div id="content">
+			<div id="header">
+				<img src="marvel-champions-header.jpeg" width="35%" id="header-image"><br>
+				<h1>Marvel Champions Endings Generator</h1>
+			</div>
+
+			<p>
+			<!--	<input type="text" placeholder="Your Hero..." id="myHero">-->
+				<select name="heroMe" id="myHero">
+				  <option value="Spiderman">Spiderman</option>
+				  <option value="Captain America">Captain America</option>
+				  <option value="Thor">Thor</option>
+				  <option value="Capatian Marvel">Captain Marvel</option>
+				</select>
+			<!--	<input type="text" placeholder="The Villain..." id="theVillain">-->
+				<select name="villainMe" id="theVillain">
+					<option value="Rhino">Rhino</option>
+					<option value="Green Goblin">Green Goblin</option>
+					<option value="Klaw">Klaw</option>
+					<option value="Ultron">Ultron</option>
+				</select>
+				<button type="button" onclick="start();">Generate Ending</button>
+			</p>
+
+			<div id="storyContent">
+				<textarea name="ending" rows="10" cols="50" id="ending"></textarea>
+			</div><!--end content-->
+
+		</div><!--end content-->
+
+	</body>
 </html>

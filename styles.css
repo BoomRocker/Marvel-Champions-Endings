@@ -1,0 +1,11 @@
+body {
+  background: #ffffff;
+  color: blue;
+  font-family: Arial, Verdana, sans-serif;
+}
+
+#ending{
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 1em;
+  background: #efefef;
+}
