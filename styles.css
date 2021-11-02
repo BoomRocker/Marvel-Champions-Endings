@@ -29,20 +29,26 @@
 }
  
 body {
-	background: #ffffff;
+	/*background: #ffffff;*/
 	color:#000;
 	font-family:'Exo', sans-serif;
 }
 
 #backer{
-	background-image: url(images/);
+	/*background-image: url(images/Rhino_Portrait.png);*/
+	background-image: url(images/backer.png);
+	background-repeat: no-repeat;
+	width:583px;
+	height:817px;
+	display:block;
+	background-size: 100%;
+	/*background: #efefef;*/
 }
 
 #content{
 	display: block;
-	width:400px;
+	width: 100%;
 	height:auto;
-	background: #efefef;
 	border: 1px solid red;
 	padding:6px 6px 6px 6px;
 }
@@ -51,7 +57,7 @@ h1{
 	font-family:'Exo', sans-serif;
 	text-transform: uppercase;
 	font-size: 1em;
-	color:#000;
+	color:#fff;
 }
 
 h2{
@@ -63,12 +69,11 @@ h2{
 #ending{
 	font-family: 'KomikaTight', sans-serif;
 	font-size: 1.5em;
-	background: #efefef;
 	line-height:1em;
-	background: #fff;
+	/*background: #ffffff;*/
 }
 
 #storyContent{
 	padding:10px;
-	background: #fff;	
+	/*background: #ffffff;*/	
 }
