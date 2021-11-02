@@ -28,7 +28,7 @@ function start()
 	var verb = [ "thrust", "skimpered", "slinked", "slid","splat" ]; 
 	}
 	
-	endingHeader.innerHTML = "Congratulations " + hero + ", you've defeated " + villain + " !\n";
+	endingHeader.innerHTML = "Congratulations " + hero + ", you've defeated " + villain + "!\n";
 
   var story = document.getElementById( "storyContent" );
   	ending.innerHTML = "\n";

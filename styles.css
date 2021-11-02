@@ -1,11 +1,41 @@
-@import url('http://fonts.cdnfonts.com/css/komika-2');
+/*@import url('http://fonts.cdnfonts.com/css/komika-2');
 @import url('http://fonts.cdnfonts.com/css/exo-4');
 @import url('http://fonts.cdnfonts.com/css/komika-text-tight');
 
+@font-face {
+    font-family: Exo;
+    src: url(".http://fonts.cdnfonts.com/css/exo-4');") format('truetype');
+}*/
+
+ @font-face {
+    font-family: 'Komika';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Komika'), url('KOMTITA_.ttf') format('truetype');
+ }
+ 
+ @font-face {
+    font-family: 'KomikaTight';
+    font-style: normal;
+    font-weight: normal;
+    src: local('KomikaTight'), url('KOMTXTT_.ttf') format('truetype');
+}
+
+ @font-face {
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Exo'), url('Exo-Medium.ttf') format('truetype');
+}
+ 
 body {
 	background: #ffffff;
 	color:#000;
 	font-family:'Exo', sans-serif;
+}
+
+#backer{
+	background-image: url(images/);
 }
 
 #content{
@@ -20,16 +50,25 @@ body {
 h1{
 	font-family:'Exo', sans-serif;
 	text-transform: uppercase;
-	font-size: 1.5em;
+	font-size: 1em;
 	color:#000;
 }
 
 h2{
-	font-family:'Komika', sans-serif;	
+	font-family:'Komika', sans-serif;
+	line-height:1.2em;
+	font-size:1em;
 }
 
 #ending{
-	font-family: 'Komika Text Tight', sans-serif;
+	font-family: 'KomikaTight', sans-serif;
 	font-size: 1.5em;
 	background: #efefef;
+	line-height:1em;
+	background: #fff;
+}
+
+#storyContent{
+	padding:10px;
+	background: #fff;	
 }
