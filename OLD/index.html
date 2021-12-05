@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Marvel Champions Endings Generator</title>
+		<link rel="shortcut icon" type="image/jpg" href="marvel-icon.png"/>
+		<link rel="stylesheet" href="styles.css">
+		<!--<link href="http://fonts.cdnfonts.com/css/komika-2" rel="stylesheet">
+		//<link href="http://fonts.cdnfonts.com/css/exo-4" rel="stylesheet">
+		<link href="http://fonts.cdnfonts.com/css/komika-text-tight" rel="stylesheet">-->
+		<script type="text/javascript" src="values.js"></script>
+		
+	</head>
+	<body >
+		<div id="backer">
+			<div id="content">
+			</div>
+			
+			<p>
+			<!--	<input type="text" placeholder="Your Hero..." id="myHero">-->
+				<select name="heroMe" id="myHero">
+					<option value="Black Panther">Black Panther</option>
+					<option value="Captain America">Captain America</option>
+					<option value="Captain Marvel">Captain Marvel</option>
+					<option value="Dr. Strange">Dr. Strange</option>
+					<option value="Hawkeye">Hawkeye</option>
+					<option value="Spiderman">Spiderman</option>
+					<option value="Spider-Woman">Spider-Woman</option>
+					<option value="Thor">Thor</option>
+				</select>
+			<!--	<input type="text" placeholder="The Villain..." id="theVillain">-->
+				<select name="villainMe" id="theVillain">
+					<option value="Absorbing Man">Absorbing Man</option>
+					<option value="Crossbones">Crossbones</option>
+					<option value="Green Goblin">Green Goblin</option>
+					<option value="Klaw">Klaw</option>
+					<option value="Red Skull">Red Skull</option>
+					<option value="Rhino">Rhino</option>
+					<option value="Taskmaster">Taskmaster</option>
+					<option value="Ultron">Ultron</option>
+					<option value="Zola">Zola</option>
+				</select>
+				<button type="button" onclick="start();">Generate Ending</button>
+			</p>
+			<div id="header">
+				<h1>Marvel Champions Endings Generator</h1>
+			</div>
+			<div id="storyContent">
+				<h2 id="endingHeader"></h2>
+				<p id="endingStory"></p>
+				<p id="ending">Story continues...</p>
+				<!--<textarea name="ending" rows="10" cols="50" id="ending"></textarea>-->
+			</div><!--end content-->
+
+		</div><!--end content-->
+		</div>
+	</body>
+</html>
