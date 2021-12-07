@@ -3,8 +3,8 @@
 	<head>
 	  <meta charset="UTF-8">
 	  <title>Marvel Champions Battle Counter</title>
-	  <link rel="shortcut icon" type="image/jpg" href="./images/fave.jpg"/>
-	  <link rel="apple-touch-icon" href="./images/fave.jpg">
+	  <link rel="shortcut icon" type="image/jpg" href="./images/fave.png"/>
+	  <link rel="apple-touch-icon" href="./images/fave.png">
 	  
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<!--<meta name="viewport" content="width=device-width,initial-scale=.95,user-scalable=no">-->	
@@ -45,14 +45,16 @@
 		  <button id="shieldSubtract" class="btn shieldClickColor">-</button>
 		  <span id="shieldDamage" class="damageCircle shieldColor">.</span>
 		</div>
-		
+	<div class="divider"></div>	
 		<div id="villainer" class="widther">
 		 <p>Villain</p>
 		  <button id="villainAdd" class="btn villainClickColor">+</button>
+		  <button id="villainAdd5" class="btn villainClickColor">+5</button>
 		  <button id="villainSubtract" class="btn villainClickColor">-</button>
-		  <span id="villainDamage" class="damageCircle villainColor">.</span>
+		  <button id="villainSubtract5" class="btn villainClickColor">-5</button>
+		  <span id="villainDamage" class="damageCircle villainColor">.</span><SPAN>/</SPAN><SPAN id="villainTotalStart" style="font-weight:bold; color:purple;">...</SPAN>
 		</div>
-		
+	<div class="divider"></div>
 		<div id="heroer" class="widther">
 		 <p>Hero</p>
 		  <button id="heroAdd" class="btn heroClickColor">+</button>
