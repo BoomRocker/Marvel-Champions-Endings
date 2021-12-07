@@ -1,0 +1,68 @@
+	<!DOCTYPE html>
+	<html lang="en" >
+	<head>
+	  <meta charset="UTF-8">
+	  <title>GloomHaven Battle Counter</title>
+	  <link rel="shortcut icon" type="image/jpg" href="./images/fave.jpg"/>
+	  <link rel="apple-touch-icon" href="./images/fave.jpg">
+	  
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<!--<meta name="viewport" content="width=device-width,initial-scale=.95,user-scalable=no">-->	
+	  <link rel="stylesheet" href="./style.css">
+		<style>
+		@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+		</style>
+		
+		<!-- in head -->
+		<meta id="viewport" name='viewport'>
+		<script>
+			(function(doc) {
+				var viewport = document.getElementById('viewport');
+				if ( navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i)) {
+					viewport.setAttribute("content", "width=device-width,initial-scale=.95,user-scalable=no");
+				} else if ( navigator.userAgent.match(/iPad/i) ) {
+					viewport.setAttribute("content", "width=device-width,initial-scale=1.58,user-scalable=no");
+				}
+			}(document));
+		</script>
+		
+	</head>
+	<body>
+
+	<div id="holder">
+	
+		<div id="resolver" class="widther">
+			<button id="resetAll"><img src="images/refresh.svg" id="svgIcons" class="insideBtnWhite" ></button>
+		</div>
+		
+	
+			
+	<div class="divider"></div>
+	
+		<div id="shielder" class="widther">
+		 <p>Main Scheme</p>
+		  <button id="shieldAdd" class="btn shieldClickColor">+</button>
+		  <button id="shieldSubtract" class="btn shieldClickColor">-</button>
+		  <span id="shieldDamage" class="damageCircle shieldColor">.</span>
+		</div>
+		
+		<div id="villainer" class="widther">
+		 <p>Villain</p>
+		  <button id="villainAdd" class="btn villainClickColor">+</button>
+		  <button id="villainSubtract" class="btn villainClickColor">-</button>
+		  <span id="villainDamage" class="damageCircle villainColor">.</span>
+		</div>
+		
+		<div id="heroer" class="widther">
+		 <p>Hero</p>
+		  <button id="heroAdd" class="btn heroClickColor">+</button>
+		  <button id="heroSubtract" class="btn heroClickColor">-</button>
+		  <span id="heroDamage" class="damageCircle heroColor">.</span>
+		</div>
+  
+		<!-- JAVASCRIPT -->
+		  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+		  <script  src="./script.js"></script>
+	</div>
+</body>
+</html>
