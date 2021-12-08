@@ -5,7 +5,7 @@ body{
 	margin:0;
 	background: url("./images/marvel-encounter-back1.png") left top repeat; 
 	text-align:left;
-	width:700px;
+	width:430px;
 	height: 555px;
 }
 
@@ -13,7 +13,7 @@ body{
 	display:inline-block !important;
 	background: url("./images/marvel-encounter-back.png") left top no-repeat; 
 	background-size: auto;
-	width:700px;
+	width:430px;
 	height: 555px;
 	padding:5px 10px 0 10px;
 	margin:0;
@@ -201,15 +201,14 @@ body{
 
 .damageCircle{
 	float:left;
-	background-color:#ccc;
+	background-color:#fff;
 	min-width: 65px;
-    height: auto;
+    height: 45px;
 	display:inline-block !important;
     font-size:55px;
 	text-align:center;
-	padding: 0px 0 0 2px;
-	margin:0 0 0 0px;
-	color:#604729;
+	padding: 0 0 0 2px;
+	margin:0 0 0 0;
 	color:#93292e;
 	clear:none;
 	font-weight: bold;
@@ -217,7 +216,7 @@ body{
 
 .resultTotal{
 	float:left;
-	background-color:#ccc;
+	background-color:#fff;
 	width: 25px;
     height: 25px;
 	display:inline-block !important;
@@ -233,9 +232,11 @@ body{
 .resultsFloat{
 	float:right;
 	display:inline-block !important;
-	background-color:pink;
+	background-color:#fff;
 	width: auto;
-    height: 100px;
+    height: 35px;
+	margin: -5px 0 0 0;
+	padding:0 0 20px 0;
 }
 
 .shieldColor{
