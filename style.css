@@ -5,7 +5,7 @@ body{
 	margin:0;
 	background: url("./images/marvel-encounter-back1.png") left top repeat; 
 	text-align:left;
-	width:100%;
+	width:700px;
 	height: 555px;
 }
 
@@ -13,7 +13,7 @@ body{
 	display:inline-block !important;
 	background: url("./images/marvel-encounter-back.png") left top no-repeat; 
 	background-size: auto;
-	width:100%;
+	width:700px;
 	height: 555px;
 	padding:5px 10px 0 10px;
 	margin:0;
