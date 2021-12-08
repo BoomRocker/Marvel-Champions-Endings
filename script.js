@@ -36,6 +36,28 @@
 		}
 	}
 	
+//Side Scheme START
+	document.getElementById("sSchemeAdd").onclick=function(){
+		countS=countS+1;
+		document.getElementById("sSchemeDamage").innerHTML=countS;
+	  	  if (countS > 0 ){
+			count=Math.max(0, count-1);
+			document.getElementById("damageTotaler").innerHTML=count;
+	   } else {
+		   
+	   }
+	}
+	document.getElementById("sSchemeSubtract").onclick=function(){
+		countS=Math.max(0, countS-1)
+		document.getElementById("sSchemeDamage").innerHTML=countS;
+	  
+	  if (countS >= 0){
+		  countFloat=Math.max(0,countA+countP-countS);
+		  count=countFloat;
+		 document.getElementById("damageTotaler").innerHTML=Math.max(0, count);
+		}
+	}
+	
 //villain START
 	document.getElementById("villainAdd").onclick=function(){
 		countV=countV+1;
@@ -92,8 +114,32 @@
 		   
 	   }
 	}
+	
+	document.getElementById("heroAdd5").onclick=function(){
+		countH=countH+5;
+		document.getElementById("heroDamage").innerHTML=countH;
+	  	  if (countH > 0 ){
+			count=Math.max(0, count-1);
+			document.getElementById("damageTotaler").innerHTML=count;
+	   } else {
+		   
+	   }
+	}
+	
+	
 	document.getElementById("heroSubtract").onclick=function(){
 		countH=Math.max(0, countH-1)
+		document.getElementById("heroDamage").innerHTML=countH;
+	  
+	  if (countH >= 0){
+		  countFloat=Math.max(0,countA+countP-countH);
+		  count=countFloat;
+		 document.getElementById("damageTotaler").innerHTML=Math.max(0, count);
+		}
+	}
+	
+	document.getElementById("heroSubtract5").onclick=function(){
+		countH=Math.max(0, countH-5)
 		document.getElementById("heroDamage").innerHTML=countH;
 	  
 	  if (countH >= 0){

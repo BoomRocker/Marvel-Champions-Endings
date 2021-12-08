@@ -8,10 +8,12 @@
 	  
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<!--<meta name="viewport" content="width=device-width,initial-scale=.95,user-scalable=no">-->	
-	  <link rel="stylesheet" href="./style.css">
-		<style>
-		@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
-		</style>
+	  <link rel="stylesheet" href="style.css">
+	  
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500&display=swap');
+		@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Exo+2:wght@500&display=swap');
+	</style>
 		
 		<!-- in head -->
 		<meta id="viewport" name='viewport'>
@@ -39,26 +41,34 @@
 			
 	<div class="divider"></div>
 	
-		<div id="shielder" class="widther">
+	<div id="shielder" class="widther">
 		 <p>Main Scheme</p>
 		  <button id="shieldAdd" class="btn shieldClickColor">+</button>
 		  <button id="shieldSubtract" class="btn shieldClickColor">-</button>
 		  <span id="shieldDamage" class="damageCircle shieldColor">.</span>
 		</div>
-	<div class="divider"></div>	
-		<div id="villainer" class="widther">
+	<div id="sideScheme" class="widther">
+		 <p>Side Scheme</p>
+		  <button id="sSchemeAdd" class="btn sSchemeClickColor">+</button>
+		  <button id="sSchemeSubtract" class="btn sSchemeClickColor">-</button>
+		  <span id="sSchemeDamage" class="damageCircle sSchemeColor">.</span>
+		</div>
+	<div id="villainer" class="widther">
 		 <p>Villain</p>
 		  <button id="villainAdd" class="btn villainClickColor">+</button>
 		  <button id="villainAdd5" class="btn villainClickColor">+5</button>
 		  <button id="villainSubtract" class="btn villainClickColor">-</button>
 		  <button id="villainSubtract5" class="btn villainClickColor">-5</button>
-		  <span id="villainDamage" class="damageCircle villainColor">.</span><SPAN>/</SPAN><SPAN id="villainTotalStart" style="font-weight:bold; color:purple;">...</SPAN>
+		  <span id="villainDamage" class="damageCircle villainColor">.</span>
+		 <!-- <SPAN class="resultTotal">/</SPAN>-->
+		  <SPAN id="villainTotalStart" class="resultTotal" >...</SPAN>
 		</div>
-	<div class="divider"></div>
-		<div id="heroer" class="widther">
+	<div id="heroer" class="widther">
 		 <p>Hero</p>
 		  <button id="heroAdd" class="btn heroClickColor">+</button>
+		  <button id="heroAdd5" class="btn heroClickColor">+5</button>
 		  <button id="heroSubtract" class="btn heroClickColor">-</button>
+		  <button id="heroSubtract5" class="btn heroClickColor">-5</button>
 		  <span id="heroDamage" class="damageCircle heroColor">.</span>
 		</div>
   
