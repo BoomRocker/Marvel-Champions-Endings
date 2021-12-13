@@ -25,8 +25,28 @@
 		   
 	   }
 	}
+	document.getElementById("shieldAdd5").onclick=function(){
+		countS=countS+5;
+		document.getElementById("shieldDamage").innerHTML=countS;
+	  	  if (countS > 0 ){
+			count=Math.max(0, count-1);
+			document.getElementById("damageTotaler").innerHTML=count;
+	   } else {
+		   
+	   }
+	}
 	document.getElementById("shieldSubtract").onclick=function(){
 		countS=Math.max(0, countS-1)
+		document.getElementById("shieldDamage").innerHTML=countS;
+	  
+	  if (countS >= 0){
+		  countFloat=Math.max(0,countA+countP-countS);
+		  count=countFloat;
+		 document.getElementById("damageTotaler").innerHTML=Math.max(0, count);
+		}
+	}
+	document.getElementById("shieldSubtract5").onclick=function(){
+		countS=Math.max(0, countS-5)
 		document.getElementById("shieldDamage").innerHTML=countS;
 	  
 	  if (countS >= 0){
@@ -47,8 +67,28 @@
 		   
 	   }
 	}
+	document.getElementById("sSchemeAdd5").onclick=function(){
+		countS=countS+5;
+		document.getElementById("sSchemeDamage").innerHTML=countS;
+	  	  if (countS > 0 ){
+			count=Math.max(0, count-1);
+			document.getElementById("damageTotaler").innerHTML=count;
+	   } else {
+		   
+	   }
+	}
 	document.getElementById("sSchemeSubtract").onclick=function(){
 		countS=Math.max(0, countS-1)
+		document.getElementById("sSchemeDamage").innerHTML=countS;
+	  
+	  if (countS >= 0){
+		  countFloat=Math.max(0,countA+countP-countS);
+		  count=countFloat;
+		 document.getElementById("damageTotaler").innerHTML=Math.max(0, count);
+		}
+	}
+	document.getElementById("sSchemeSubtract5").onclick=function(){
+		countS=Math.max(0, countS-5)
 		document.getElementById("sSchemeDamage").innerHTML=countS;
 	  
 	  if (countS >= 0){
