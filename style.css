@@ -56,7 +56,7 @@ body{
 	margin: 0 0 0 0;
 	padding:17px 0 0 0 ;
 	text-align:center;
-	border:1px solid red;
+	/*border:1px solid red;*/
 }
 
 .widther p{
@@ -75,7 +75,7 @@ body{
 	margin:0px 0px 0 150px;
 	padding: 0px 0 0 0;
 	width:200px;
-	border:1px solid green;
+	/*border:1px solid green;*/
 }
 
 .buff{
@@ -279,7 +279,16 @@ body{
 }
 
 #sideScheme{
-	padding-top:24px;
+	padding-top:28px;
+}
+
+#sideScheme p{
+	margin-top:-2px;
+	margin-bottom: 2px;
+}
+
+#shielder{
+	padding-top:20px;
 }
 
 .damageCircle{
@@ -306,7 +315,7 @@ body{
 }
 
 #sSchemeDamage{
-	margin-top:-27px;
+	margin-top:-26px;
 }
 
 .resultTotal{
