@@ -6,18 +6,21 @@ body{
 	text-align:left;
 	width:400px;
 	height: 691px;
-	background: url("./images/backerGrounder-01.jpg") left top no-repeat; 
-	background-size: 400px auto;
+	padding-top:25px;
 	border: 1px solid blue;
+	background: url("./images/marvel-encounter-back.png") left top repeat; 
+	background-size: 400px auto;
 }
 
 #holder{
 	display:inline-block !important;
-	width:auto;
-	height: auto;
+	width:375px;
+	height: 691px;
 	margin:0;
-	padding:0px 0px 0 20px;
+	padding:0px 0px 0 25px;
 	border: 1px solid lime;
+	background: url("./images/backerGrounder-01.jpg") left top no-repeat; 
+	background-size: 400px auto;
 }
 
 #woundHurts{
