@@ -6,7 +6,6 @@ body{
 	width:400px;
 	height: 691px;
 	padding:25px 0 0 15px;
-	/*border: 1px solid blue;*/
 	background: url("./images/marvel-encounter-back.png") left top repeat; 
 	background-size: 400px auto;
 }
@@ -17,7 +16,6 @@ body{
 	height: 691px;
 	margin:0;
 	padding:0px 0px 0 10px;
-	border: 1px solid lime;
 	background: url("./images/backerGrounder-01.jpg") left top no-repeat; 
 	background-size: 400px auto;
 }
@@ -53,7 +51,7 @@ body{
 	float: left;
 	clear:both;
 	margin: 0 0 0 0;
-	padding:17px 0 0 0 ;
+	padding:0px 0 0 0 ;
 	text-align:center;
 	/*border:1px solid red;*/
 }
@@ -138,7 +136,7 @@ body{
 
 #shieldAdd,#sSchemeAdd,#shieldSubtract,#sSchemeSubtract{
 	padding:0;
-	margin:8px 0 0 28px;
+	/*margin:26px 0 0 28px;*/
 	font-size: 45px;
 	color:#E86E25;/*
 	text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
@@ -151,7 +149,7 @@ body{
 
 #shieldSubtract,#sSchemeSubtract{
     -webkit-transform:scale(1.25,1.25); /* Safari and Chrome */
-	margin:5px 0 0 26px;
+	margin:0 0 0 0;
 }
 
 #shieldAdd.btn:active, #shieldAdd.btn:hover, #shieldSubtract.btn:active, #shieldSubtract.btn:hover, #sSchemeAdd.btn:active, #sSchemeAdd.btn:hover, #sSchemeSubtract.btn:active, #sSchemeSubtract.btn:hover{
@@ -163,7 +161,7 @@ body{
 
 #shieldAdd5,#shieldSubtract5,#sSchemeAdd5,#sSchemeSubtract5{
 	padding:0;
-	margin:9px 0 0 0px;
+	margin:0 0 0 0px;
 	font-size: 25px;
 	color:#FDD31D;
 	/*color:black;
@@ -186,9 +184,6 @@ body{
 	filter: drop-shadow(2px 2px #000);	
 	font-weight:bold;
 	font-style:italic;
-}
-
-#shieldDamage{
 }
 
 .btn:active.modifyClickColor, .btn:hover.modifyClickColor{
@@ -234,7 +229,6 @@ body{
 	padding:0;
 	margin:0px 0 0 0;
 
-	border:0px solid #ecd977;
 }
 
 .resolverBtn:active {
@@ -276,8 +270,18 @@ body{
 	visibility:hidden;
 }
 
+#shielder{
+	height:90px;
+	width:375px;
+	padding:26px 0 0 0;
+	margin:0px 0 0 0;
+}
+
 #sideScheme{
-	padding-top:28px;
+	height:90px;
+	width:375px;
+	padding:26px 0 0 0;
+	margin:0px 0 0 0;
 }
 
 #sideScheme p{
@@ -285,21 +289,29 @@ body{
 	margin-bottom: 2px;
 }
 
-#shielder{
-	padding-top:20px;
+#buttonGroup{
+	display:block;
+	padding:18px 0 0 125px;
+/*	background:red;*/
+	height:50px;
+}
+
+.rightButtons{
+	display:block;
+	padding:0 0 0 130px;
 }
 
 .damageCircle{
 	float:left;
-	/*background-color:#000;
-	border:1px solid pink;*/
+	/*background-color:#000;*/
+	border:1px solid pink;
 	min-width: 102px;
     height: 45px;
 	display:inline-block !important;
     font-size:80px;
 	text-align:center;
 	padding: 0 0 0 0;
-	margin:-18px 0 0 0px;
+	margin:0px 0 0 0px;
 	color:#fff;
 	clear:none;
 	text-align:center;
@@ -313,7 +325,7 @@ body{
 }
 
 #sSchemeDamage{
-	margin-top:-26px;
+	margin-top:0px;
 }
 
 .resultTotal{
@@ -378,10 +390,6 @@ body{
 #attackDamage{
 }
 
-#shieldDamage{
-}
-
-
 #resolver{
 	margin:0;
 	width:auto;
@@ -420,16 +428,24 @@ p.resolved{
 .deactivePoison{
     background:green;
     color:darkgreen;
-    border:1px solid green; 
 }
 
 .activePoison{
     background:lightgreen;
     color:green;
-    border:1px solid lightgreen; 
 }
 
-#shieldAdd, #shieldSubtract{
+#shieldAdd{
+	margin:1px 0 0px 5px;
+	padding:5px 0 0 0 ;
+}
+
+#shieldSubtract, #sSchemeSubtract{
+	padding:1px 0 0 0 ;
+}
+
+#sSchemeAdd{
+	margin:7px 0 0px 5px;
 }
 
 #resetAll{
