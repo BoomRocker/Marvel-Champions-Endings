@@ -68,7 +68,7 @@
 	   }
 	}
 	document.getElementById("sSchemeAdd5").onclick=function(){
-		countS=countS+5;
+		countS=countS+3;
 		document.getElementById("sSchemeDamage").innerHTML=countS;
 	  	  if (countS > 0 ){
 			count=Math.max(0, count-1);
@@ -88,7 +88,7 @@
 		}
 	}
 	document.getElementById("sSchemeSubtract5").onclick=function(){
-		countS=Math.max(0, countS-5)
+		countS=Math.max(0, countS-3)
 		document.getElementById("sSchemeDamage").innerHTML=countS;
 	  
 	  if (countS >= 0){

@@ -177,13 +177,10 @@ body{
 
 #shieldAdd5.btn:active, #shieldAdd5.btn:hover, #shieldSubtract5.btn:active, #shieldSubtract5.btn:hover, #sSchemeAdd5.btn:active, #sSchemeAdd5.btn:hover, #sSchemeSubtract5.btn:active, #sSchemeSubtract5.btn:hover{
 	font-size: 20px;
-	background: -webkit-linear-gradient(#fff, yellow);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	-webkit-text-stroke: 0px black;
 	filter: drop-shadow(2px 2px #000);	
 	font-weight:bold;
 	font-style:italic;
+	color:yellow;
 }
 
 .btn:active.modifyClickColor, .btn:hover.modifyClickColor{
@@ -303,8 +300,8 @@ body{
 
 .damageCircle{
 	float:left;
-	/*background-color:#000;*/
-	border:1px solid pink;
+	/*background-color:#000;
+	border:1px solid pink;*/
 	min-width: 102px;
     height: 45px;
 	display:inline-block !important;
