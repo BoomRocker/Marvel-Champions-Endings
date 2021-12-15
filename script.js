@@ -2,6 +2,7 @@
 	var countS=0
 	var countV=0
 	var countH=0
+	var countSS=0
 	
 	var countVStart=14
 	
@@ -58,9 +59,9 @@
 	
 //Side Scheme START
 	document.getElementById("sSchemeAdd").onclick=function(){
-		countS=countS+1;
-		document.getElementById("sSchemeDamage").innerHTML=countS;
-	  	  if (countS > 0 ){
+		countSS=countSS+1;
+		document.getElementById("sSchemeDamage").innerHTML=countSS;
+	  	  if (countSS > 0 ){
 			count=Math.max(0, count-1);
 			document.getElementById("damageTotaler").innerHTML=count;
 	   } else {
@@ -68,9 +69,9 @@
 	   }
 	}
 	document.getElementById("sSchemeAdd5").onclick=function(){
-		countS=countS+3;
-		document.getElementById("sSchemeDamage").innerHTML=countS;
-	  	  if (countS > 0 ){
+		countSS=countSS+3;
+		document.getElementById("sSchemeDamage").innerHTML=countSS;
+	  	  if (countSS > 0 ){
 			count=Math.max(0, count-1);
 			document.getElementById("damageTotaler").innerHTML=count;
 	   } else {
@@ -78,18 +79,18 @@
 	   }
 	}
 	document.getElementById("sSchemeSubtract").onclick=function(){
-		countS=Math.max(0, countS-1)
-		document.getElementById("sSchemeDamage").innerHTML=countS;
+		countSS=Math.max(0, countSS-1)
+		document.getElementById("sSchemeDamage").innerHTML=countSS;
 	  
-	  if (countS >= 0){
-		  countFloat=Math.max(0,countA+countP-countS);
+	  if (countSS >= 0){
+		  countFloat=Math.max(0,countA+countP-countSS);
 		  count=countFloat;
 		 document.getElementById("damageTotaler").innerHTML=Math.max(0, count);
 		}
 	}
 	document.getElementById("sSchemeSubtract5").onclick=function(){
-		countS=Math.max(0, countS-3)
-		document.getElementById("sSchemeDamage").innerHTML=countS;
+		countSS=Math.max(0, countSS-3)
+		document.getElementById("sSchemeDamage").innerHTML=countSS;
 	  
 	  if (countS >= 0){
 		  countFloat=Math.max(0,countA+countP-countS);
